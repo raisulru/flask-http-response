@@ -2,7 +2,7 @@
 A Flask http custom response
 
 ## Description
-This a http response package for Flask jsonify custom response. This is only for any Flask projects which used REST API.
+This is a flask http custom reponse made by flask jsonify module.
 
 ## Dependencies
 Flask
