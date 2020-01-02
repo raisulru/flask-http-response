@@ -27,7 +27,7 @@ class ResponseInterface(object):
         reponse = jsonify(obj)
         reponse.status_code = self.status
 
-        return jsonify(reponse)
+        return reponse
 
 
 class SuccessResponse(ResponseInterface):
@@ -45,7 +45,7 @@ class ResultResponse(ResponseInterface):
         self.message = message
         response = jsonify(self.message)
         response.status_code = self.status
-        return jsonify(response)
+        return response
 
 
 class CustomResponse():
